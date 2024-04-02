@@ -1,0 +1,26 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Televisor samsung 40 pulgagas FHD",
+            "price": 80000,
+            "hasDiscount": false,
+            "discountPercentage": 0,
+            "finalPrice": 80000,
+            "category": "Tecnologia",
+            "subCategory": "Televisor",
+            "image": "https://http2.mlstatic.com/D_Q_NP_821321-MCO41746077930_052020-R.webp"       
+        },
+        {
+            "id": 2,
+            "name": "Televisor samsung 30 pulgagas FHD",
+            "price": 80000,
+            "hasDiscount": false,
+            "discountPercentage": 0,
+            "finalPrice": 80000,
+            "category": "Tecnologia",
+            "subCategory": "Televisor",
+            "image": "https://http2.mlstatic.com/D_Q_NP_821321-MCO41746077930_052020-R.webp"       
+        }
+    ]
+}
