@@ -47,6 +47,7 @@ module.exports = (_, argv) => ({
         "mf_navbar": "mf_navbar@http://localhost:8002/remoteEntry.js",
         "mf_header": "mf_header@http://localhost:8003/remoteEntry.js",
         "mf_products": "mf_products@http://localhost:8004/remoteEntry.js",
+        "mf_carousel_offers": "mf_carousel_offers@http://localhost:8005/remoteEntry.js"
       },
       exposes: {},
       shared: {
