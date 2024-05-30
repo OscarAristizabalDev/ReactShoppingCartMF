@@ -17,10 +17,22 @@ export const Navbar = ({ isOpenMenuMovil }: NavbarProps) => {
             {
                 (isPageWide)
                     ?
-                    <nav className='bg-yellow-default text-sm md:flex sm:pl-170px md:pl-250px lg:pl-320px xl:pl-400px 2xl:pl-480px'>
-                        <NavLink to={"/homeappliances"} className="block px-2 py-1 text-slate-950 font-normal">Homeappliances</NavLink>
-                        <NavLink to={"/technology"} className="mt-1 block px-2 py-1 text-slate-950 font-normal sm:mt-0 sm:ml-2">Technology</NavLink>
-                    </nav>
+                    <div className='md:flex bg-yellow-default'>
+                        <div className='md:grow md:flex-1'></div>
+                        <nav className='flex space-x-6 px-2.5 text-sm md:w-full xl:w-1200'>
+                            <div className='md:w-162 flex-none'>
+                                hola 1
+                            </div>
+                            <div className='grow flex md:w-612 lg:bg-green-200 xl:bg-red-200'>
+                                <NavLink to={"/homeappliances"} className="block px-2 py-1 text-slate-950 font-normal">Homeappliances</NavLink>
+                                <NavLink to={"/technology"} className="mt-1 block px-2 py-1 text-slate-950 font-normal sm:mt-0 sm:ml-2">Technology</NavLink>
+                            </div>
+                            <div className='flex-none w-388'>
+                                hola 2
+                            </div>
+                        </nav>
+                        <div className='md:grow md:flex-1'></div>
+                    </div>
                     :
                     <nav className={`${isOpenMenuMovil ? 'block' : 'hidden'} bg-yellow-default px-2 pt-2 pb-4 md:flex sm:p-0 justify-end items-center relative`} >
                         <div className='flex'>
