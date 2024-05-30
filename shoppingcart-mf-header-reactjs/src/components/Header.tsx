@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef } from 'react';
+import React, { useRef } from 'react';
 
 import { useMediaQuery } from '../hooks/useMediaQuery';
 
